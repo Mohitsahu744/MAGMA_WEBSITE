@@ -61,11 +61,96 @@
   .bottom-page1{
     position: absolute;
     bottom: 5%;
-    left: 15%;
+    left: 10%;
+    height: 35vh;
+    width: 50vw;
   }
   .bottom-page1>h1{
     font-family: a;
     font-size: 5vw;
     font-weight: 100;
     line-height: 1;
+    color: #fff;
   }
+  .bottom-page1-inner{
+    position: absolute;
+    bottom: 0%;
+    height: 35%;
+    width: 100%;
+    font-family: a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .bottom-page1-inner button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #0b48ed;
+    font-family: b;
+    font-size: 16px;
+  }
+  .bottom-page1-inner h4{
+    font-size: 1.3vw;
+    font-weight: 100;
+    color: #fff;
+  }
+  #page2{
+    display: flex;
+    align-items: start;
+    font-family: a;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: #0a3cce;
+    padding: 0vw 8vw;
+    color: #fff;
+  }
+  #page2>h2{
+    font-weight: 100;
+    margin-bottom: 3vw;
+  }
+  #page2>h1{
+    width: 90%;
+    font-size: 4vw;
+    font-weight: 100;
+    line-height: 1.3;
+    color: #dadada69;
+  }
+  #page3{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+  }
+  #page3>canvas{
+    max-height: 100vh;
+    max-width: 100vw;
+  }
+#page4{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color:#1137ca;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  font-family: a;
+}
+#page4>h2{
+  margin-left: 7vw;
+  margin-bottom: 3vw;
+  font-weight: 100;
+  color: #fff
+}
+#page4>h1{
+    margin-left: 7vw;
+    width: 80%;
+    font-size: 4vw;
+    font-weight: 100;
+    line-height: 1.3;
+    color: #dadada69;
+}
