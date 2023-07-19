@@ -232,3 +232,185 @@
   width: 100%;
   object-fit: cover;
 }
+.page8-bottom{
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-family: a;
+}
+.page8-bottom>h1{
+  color: #fff;
+  margin-bottom: 2vw;
+  font-size: 5vw;
+  font-weight: 100;
+}
+.page8-bottom>button{
+  padding: 20px 30px;
+  border-radius: 50px;
+  border: none;
+  background-color: #fff;
+  color: #0a3cce;
+}
+#page9{
+  display: flex;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #0a3cce;
+}
+/* @media (max-width: 480px) {
+  #page9{
+    display: flex;
+    flex-direction: column;
+} */
+.left9{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.right9{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.left9>h1{
+  position: relative;
+  top: 35%;
+  left: 20%;
+  transform: translateY(-50%);
+  font-size: 6vw;
+  font-family: a;
+  font-weight: 100;
+  color: #fff;
+  line-height: 1;
+}
+.right9-center{
+  height: 65%;
+  width: 100%;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url(https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-1.jpeg);
+  background-size: cover;
+  right: 20%;
+}
+#page10{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #0a3cce;
+}
+.right10{
+  height: 100%;
+  width: 60%;
+  position: relative;
+  left: 40%;
+  /* background-color: red; */
+}
+.right10-inner{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  height: 33.3%;
+  width: 100%;
+  font-family: a;
+  color: #fff;
+}
+.right10-inner>h1{
+  font-size: 2vw;
+}
+.right10-inner>p{
+  margin-top: 1vw;
+  line-height: 1.5;
+  font-size: 1.3vw;
+  width: 80%;
+}
+#page11{
+  position: relative;
+  height: 110vh;
+  width: 100vw;
+  background-color: #fff;
+  font-family: a;
+}
+#page11>h1{
+  position: absolute;
+  font-size: 5vw;
+  top: 5%;
+  left: 5%;
+  color: #000;
+  font-weight: 100;
+}
+.page11-inner{
+  display: flex;
+  top: 18%;
+  position: relative;
+  margin-bottom: 2vw;
+  height: 24%;
+  width: 100%;
+  /* bottom: 10%; */
+  /* background-color: green; */
+}
+.left11{
+  position: relative;
+  height: 100%;
+  width: 40%;
+  left: 5%;
+  border-radius: 10px;
+  overflow: hidden;
+  /* background-color: maroon; */
+}
+.left11>img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.right11{
+  padding-top: 2vw;
+  color: #000;
+  left: 50%;
+  position: absolute;
+  height: 100%;
+  width: 40%;
+  /* background-color: magenta; */
+}
+.right11>h4{
+  font-weight: 100;
+  color: gray;
+
+}
+.right11>h1{
+font-size: 23px; 
+color: rgb(87, 84, 84); 
+}
+#page12{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #02268e;
+}
+.page12-inner{
+  position: absolute;
+  top: 20%;
+  right: 18%;
+  color: #fff;
+  font-family: a;
+}
+.page12-inner>h1{
+  font-size: 5vw;
+  font-weight: 100;
+}
+.page12-inner>p{
+  font-size: 1.3vw;
+  margin-top: 5%;
+  line-height: 2;
+  color: rgb(213, 205, 205);
+}
+#page13{
+  position: relative;
+  height: 50vh;
+  width: 100vw;
+  background-color: #000;
+}
