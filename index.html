@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <div id="preloader"></div>
     <div id="main">
         <div data-scroll data-scroll-speed="-5" id="page1">
             <nav>
@@ -34,21 +35,25 @@
         </div>
         <div id="page2">
             <h2>CERTIFY YOUR BUILDING AS A DIGITAL TWIN TOKEN (DTT®)</h2>
-            <h1>The Digital Twin Token is a unique digital asset backed by property data. Magma combines your building’s <br> components and systems essential information into a DTT®.</h1>
+            <h1>The Digital Twin Token is a unique digital asset backed by property data. Magma combines your building’s
+                <br> components and systems essential information into a DTT®.</h1>
         </div>
         <div id="page3">
             <canvas></canvas>
         </div>
         <div id="page4">
             <h2>CONNECT THE BUILDING'S TWIN TO YOUR STAKEHOLDERS</h2>
-            <h1>Users connect directly to the DTT® without any intermediaries. As Stakeholder, they have the power to upload and verify information that enriches the Digital Twin Token. A Stakeholder's ability to access validated-data to perform tasks depends on their specific role.</h1>
+            <h1>Users connect directly to the DTT® without any intermediaries. As Stakeholder, they have the power to
+                upload and verify information that enriches the Digital Twin Token. A Stakeholder's ability to access
+                validated-data to perform tasks depends on their specific role.</h1>
         </div>
         <div id="page5">
             <canvas></canvas>
         </div>
         <div id="page6">
             <h3>INCREASE YOUR DIGITAL TWIN TOKEN’S VALUE</h3>
-            <h1>DTT® data increases the value of your digital asset by lowering operational costs, improving energy use, assisting commercialization, and boosting the liquidity of your building.</h1>
+            <h1>DTT® data increases the value of your digital asset by lowering operational costs, improving energy use,
+                assisting commercialization, and boosting the liquidity of your building.</h1>
         </div>
         <div id="page7">
             <div class="page7-cir">
@@ -185,5 +190,12 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
 </body>
+
+<script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function () {
+        loader.style.display = "none";
+    })
+</script>
 
 </html>
